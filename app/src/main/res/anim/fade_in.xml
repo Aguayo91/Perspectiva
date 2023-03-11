@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ ***********************************************************************************************************************
+  ~ Copyright (c) 2020 www.google.com.mx - All Right Reserved.
+  ~
+  ~ Project             : Android
+  ~ Created on          : 15.07.2020 15:28
+  ~ Author              : Chrstian Aguayo
+  ~ Author E-Mail       : brivemx@gmail.com
+  ~ Module              : C:/Users/caguayo/Documents/app/src/main/res/anim/fade_in.xml
+  ~ File Name           : fade_in.xml
+  ~ Last Modified User  : Aguayo91
+  ~ Last Modified Date  : 15.07.2020 15:28
+  ~ ***********************************************************************************************************************
+  -->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator">
+    <alpha
+        android:duration="500"
+        android:fromAlpha="0.1"
+        android:toAlpha="1.0"
+        />
+</set>
